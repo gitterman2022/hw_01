@@ -80,7 +80,7 @@
     grid-template-columns: repeat(12, 1fr);
     grid-template-areas: 
     "l l . h f p b c c . i i";
-    background-color: rgb(235, 226, 226);
+    background-color: #f1f1ef;
     padding: 10px 0;
     justify-items: center;
     align-items: center;
