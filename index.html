@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hw_01</title>
+    <!-- adding font awesome icons -->
+    <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+    <!-- adding google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap" rel="stylesheet">
+    <!-- adding bootstrap css -->
+    <!-- <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+    <!-- adding style css -->
+    <link 
+    rel="stylesheet" 
+    href="style.css"/>
+</head>
+<body>
+    <!-- scroll to top button -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <i class="fa-solid fa-circle-arrow-up"></i>
+    </button>
+    <!-- nav bar starts -->
+    <nav class="nav-container">
+        <ul class="nav">
+            <li class="nav-item-1">
+                <a class="nav-link ccolor" href="#home">
+                    <span class="logo">Shoe Hut!</span>
+                </a>
+            </li>
+            <li class="nav-item-2">
+                <a class="nav-link cbtn" href="#home">Home</a>
+            </li>
+            <li class="nav-item-3">
+                <a class="nav-link cbtn" href="#features">Features</a>
+            </li>
+            <li class="nav-item-4">
+                <a class="nav-link cbtn" href="#product">product</a>
+            </li>
+            <li class="nav-item-5">
+                <a class="nav-link cbtn" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item-6">
+                <!-- <a class="nav-link cbtn" href="#contact">Contact Us</a> -->
+            </li>
+            <li class="nav-item-7">
+                <a class="nav-link cbtn" href="#login">Login</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- nav bar ends -->
+    <!-- header section starts -->
+    <header class="header-section" id="home">
+        <div class="header-container">
+                <div class="left-box">
+                    <h1 class="text-shadow">
+                        Welcome to
+                        <br>
+                        <span class="ccolor">Shoe Hut!</span>
+                    </h1>
+                    <p class="text">
+                        In many areas of the world, sanitation is poor and disease is widespread. Going without shoes in areas without proper disposal methods for animal and human waste makes people susceptible to parasitic worms and other foot infections. These diseases can be debilitating or even lethal. That's why everyone should use shoes.
+                    </p>
+                    <div class="form">  
+                        <input type="email" class="bgf" placeholder="Enter your email...">
+                        <div class="btn">
+                            <button class="abtn" type="button">Donate!</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-box">
+                    <div class="img-box">
+                        <img src="https://img.freepik.com/free-photo/colorful-sport-shoes-green_151013-4554.jpg" alt="header image!">
+                    </div>
+                </div>
+        </div>
+    </header>
+    <!-- header section ends -->
+    <!-- brand section starts -->
+    <section class="brand-section">
+        <div class="brand-container">
+            <div class="brand-box">
+                <div class="box-1">
+                    <img src="./imgs/a.png" alt="bramd logo image!">
+                </div>
+                <div class="box-2">
+                    <img src="./imgs/g.png" alt="bramd logo image!">
+                </div>
+                <div class="box-3">
+                    <img src="./imgs/n.png" alt="bramd logo image!">
+                </div>
+                <div class="box-4">
+                    <img src="./imgs/f.png" alt="bramd logo image!">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- brand section ends -->
+    <!-- features section starts -->
+    <section class="features-section" id="features">
+        <div class="feature-container">
+            <div class="intro">
+                <h3 class="text-shadow">
+                    Our Features!
+                </h3>
+                <p class="text">
+                    We offer high quality products for competitive prices. Our main goal is customer satisfaction which we obtain through market orientation and the allocation of ongoing service and support. We are a manufacturer of high quality products, reaching and even outperforming European standards, proven by international quality certificates. Nevertheless we reached through efficient management, up-to-date technology in our production and the benefits of a vertical producing company.
+                </p>
+            </div>
+            <div class="content">
+                <div class="left-box">
+                    <div class="img-box">
+                        <img src="https://img.freepik.com/free-vector/shoes-realistic-set_1284-23172.jpg" alt="feature image!">
+                    </div>
+                </div>
+                <div class="right-box">
+                    <h2>
+                        <span>
+                            Only Comfort is
+                        <br>
+                        Our
+                        </span> Main Feature!
+                    </h2>
+                    <p class="text">
+                        <i class="fa-solid fa-gears ccolor"></i> Key Features
+                    </p>
+                    <ul>
+                        <li><i class="fa-solid fa-shoe-prints ccolor"></i>  Most comfortable in the world!</li>
+                        <li><i class="fa-solid fa-shoe-prints ccolor"></i>  Sole wear, Breathability.</li>
+                        <li><i class="fa-solid fa-shoe-prints ccolor"></i>  A synthetic leather and mesh combination upper, which provides durability and breathability.</li>
+                        <li><i class="fa-solid fa-shoe-prints ccolor"></i>  Shock absorption, Flexibility, Fit.</li>
+                        <li><i class="fa-solid fa-shoe-prints ccolor"></i>  Adjustable. There should be an adjustable strap such as laces or Velcro which allows for adjustment depending on an individual's needs.</li>
+                        <li><i class="fa-solid fa-shoe-prints ccolor"></i>  Variable lacing systems which help customize shoe fit and a durable heel counter which stabilizes the heel.</li>
+                        <li><i class="fa-solid fa-shoe-prints ccolor"></i>  Traction, Light weight.</li>
+                    </ul>
+                    <div>
+                        <button class="abtn" type="button">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- features section ends -->
+    <!-- product section starts -->
+    <section class="product-section" id="product">
+        <div class="product-container">
+            <div class="intro">
+                <h3 class="text-shadow">
+                    Our Products!
+                </h3>
+                <p class="text">
+                    We offer high quality products for competitive prices. Our main goal is customer satisfaction which we obtain through market orientation and the allocation of ongoing service and support.
+                </p>
+            </div>
+            <div class="content">
+                <div class="product-1">
+                    <div class="prod" >
+                        <div class="img-box">
+                            <img src="https://img.freepik.com/free-photo/women-s-red-high-heel-shoes-formal-fashion_53876-101501.jpg" alt="product image 1!">
+                        </div>
+                        <div class="prod-body">
+                            <h2>
+                                Red Carpet!
+                            </h2>
+                            <p>
+                                Extermely light weight!
+                            </p>
+                            <p>
+                                Price: 432 $ only!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-2">
+                    <div class="prod" >
+                        <div class="img-box">
+                            <img src="https://img.freepik.com/free-psd/militar-boots-mockup_1310-779.jpg" alt="product image 2!">
+                        </div>
+                        <div class="prod-body">
+                            <h2>
+                                Army Armour!
+                            </h2>
+                            <p>
+                                Makes you strong!
+                            </p>
+                            <p>
+                                Price: 569 $ only!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-3">
+                    <div class="prod" >
+                        <div class="img-box">
+                            <img src="https://img.freepik.com/free-photo/women-rsquo-s-white-high-heel-shoes-fashion_53876-106046.jpg" alt="product image 3!">
+                        </div>
+                        <div class="prod-body">
+                            <h2>
+                                White Hill!
+                            </h2>
+                            <p>
+                                Light as light!
+                            </p>
+                            <p>
+                                Price: Only 457 $!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-4">
+                    <div class="prod" >
+                        <div class="img-box">
+                            <img src="https://img.freepik.com/free-photo/pair-trainers_144627-3799.jpg" alt="product image 4!">
+                        </div>
+                        <div class="prod-body">
+                            <h2>
+                                Blue Lightning!
+                            </h2>
+                            <p>
+                                Blue as fire!
+                            </p>
+                            <p>
+                                Price: 468 $ only!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-5">
+                    <div class="prod" >
+                        <div class="img-box">
+                            <img src="https://img.freepik.com/free-photo/women-heeled-shoes_1303-5875.jpg" alt="product image 5!">
+                        </div>
+                        <div class="prod-body">
+                            <h2>
+                                Golden Glaze!
+                            </h2>
+                            <p>
+                                Super comfy!
+                            </p>
+                            <p>
+                                Price: 553 $ only!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-6">
+                    <div class="prod" >
+                        <div class="img-box">
+                            <img src="https://img.freepik.com/free-photo/brown-leather-slip-men-s-shoes-fashion_53876-104481.jpg" alt="product image 6!">
+                        </div>
+                        <div class="prod-body">
+                            <h2>
+                                Formal Feather!
+                            </h2>
+                            <p>
+                                Genuine leather!
+                            </p>
+                            <p>
+                                Price: Only 632 $!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- product section ends -->
+    <!-- gallery section starts -->
+    <section class="gallery-section">
+        <div class="gallery">
+            <div class="image">
+                <img src="https://img.freepik.com/free-photo/men-rsquo-s-leather-shoes-with-polishing-tools-vintage-style_53876-138981.jpg" alt="gallery image 1!">
+            </div>
+            <div class="image">
+                <img src="https://img.freepik.com/free-vector/sport-shoes-sneakers-set_74855-313.jpg" alt="gallery image 2!">
+            </div>
+            <div class="image">
+                <img src="https://img.freepik.com/free-photo/young-girl-wearing-boots-sitting-pier-during-sunset_181624-37828.jpg" alt="gallery image 3!">
+            </div>
+            <div class="image">
+                <img src="https://img.freepik.com/free-vector/pair-leather-sports-shoes-wood-background_1284-17526.jpg" alt="gallery image 4!">
+            </div>
+        </div>
+    </section>
+    <!-- gallery section ends -->
+    <!-- blog section starts -->
+    <section class="blog-section" id="blog">
+        <div class="blog-container">
+            <div class="intro">
+                <h3 class="text-shadow">
+                    Our Blog!
+                </h3>
+                <p class="text">
+                    This is our blog section for shoe lovers! Find advice on how to wear shoes, heels, boots and sandals and how to care for them, at our website.
+                </p>
+            </div>
+            <div class="content">
+                <div class="blog-1">
+                    <div class="blog" >
+                        <div class="img-box">
+                            <img src="https://cms-static.asics.com/media-libraries/38836/file.pcp.jpg" alt="blog image 1!">
+                        </div>
+                        <div class="blog-body">
+                            <ul>
+                                <li class="text">
+                                    <p>
+                                        <span class="logo">
+                                            <i class="fa-solid fa-calendar-day ccolor"></i>
+                                        </span>
+                                        April 10, 2020
+                                    </p>
+                                </li>
+                                <li class="text">
+                                    <p>
+                                        <span class="logo">
+                                            <i class="fa-solid fa-user ccolor"></i>
+                                        </span>
+                                        Admin
+                                    </p>
+                                </li>
+                            </ul>
+                            <h2>
+                                Shoes that support your child's every move
+                            </h2>
+                            <p>
+                                Feet and walking habits are determined during the formative years of a child's growth and development - so it's crucial to support their every step with the best footwear...
+                            </p>
+                            <div class="butn">
+                                <a class="ocbtn" type="button">
+                                    Read More<i class="fa fa-long-arrow-right ms-3"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-2">
+                    <div class="blog" >
+                        <div class="img-box">
+                            <img src="https://multisportmojo.com/wp-content/uploads/2020/01/RGG_Nike-Zoom-Fly-3-features.jpg" alt="blog image 2!">
+                        </div>
+                        <div class="blog-body">
+                            <ul>
+                                <li class="text">
+                                    <p>
+                                        <span class="logo">
+                                            <i class="fa-solid fa-calendar-day ccolor"></i>
+                                        </span>
+                                        April 15, 2020
+                                    </p>
+                                </li>
+                                <li class="text">
+                                    <p>
+                                        <span class="logo">
+                                            <i class="fa-solid fa-user ccolor"></i>
+                                        </span>
+                                        Admin
+                                    </p>
+                                </li>
+                            </ul>
+                            <h2>
+                                Nike Zoom Fly 3 review pro's & cons
+                            </h2>
+                            <p>
+                                The new Nike Zoom series of distance running shoes has been released and one of the most requested gear reviews on RunGearGuru.com is Nike race day distance running shoe for serious runners - the Nike Zoom Fly 3...
+                            </p>
+                            <div class="butn">
+                                <a class="ocbtn" type="button">
+                                    Read More<i class="fa fa-long-arrow-right ms-3"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-3">
+                    <div class="blog" >
+                        <div class="img-box">
+                            <img src="https://i.pinimg.com/736x/ed/d6/40/edd6401c24dab36de7f2a6a23dd37c00.jpg" alt="blog image 3!">
+                        </div>
+                        <div class="blog-body">
+                            <ul>
+                                <li class="text">
+                                    <p>
+                                        <span class="logo">
+                                            <i class="fa-solid fa-calendar-day ccolor"></i>
+                                        </span>
+                                        April 20, 2020
+                                    </p>
+                                </li>
+                                <li class="text">
+                                    <p>
+                                        <span class="logo">
+                                            <i class="fa-solid fa-user ccolor"></i>
+                                        </span>
+                                        Admin
+                                    </p>
+                                </li>
+                            </ul>
+                            <h2>
+                                Parts of a Shoe: Office, Pointe, High Heel
+                            </h2>
+                            <p>
+                                Shoes have become an integral part of our lives and here, we explore various parts of a shoe including pointe, running, high heel and office shoes. Pointe shoes are great shoes which allow ballet dancers to dance on their toes...
+                            </p>
+                            <div class="butn">
+                                <a class="ocbtn" type="button">
+                                    Read More<i class="fa fa-long-arrow-right ms-3"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blog section ends -->
+    <!-- contact section starts -->
+    <section class="contact-section" id="contact">
+    </section>
+    <!-- contact section ends -->
+    <!-- footer section starts -->
+    <footer class="footer-section">
+        <div class="footer-container">
+            <div class="box-1">
+                <h3>Contact US</h3>
+                <ul>
+                  <li>
+                    <i class="fas fa-map-marker-alt"></i> Gazipur, Bangladesh
+                  </li>
+                  <li>
+                    <i class="fas fa-phone-alt"></i> Call +8801xxxxxxxx
+                  </li>
+                  <li>
+                    <i class="fas fa-envelope"></i> info@example.com
+                  </li>
+                </ul>
+              </div>
+              <div class="box-2">
+                <h3 class="ccolor">Shoe Hut!</h3>
+                <p class="text">
+                    'Shoe Hut!' not only help your feet to heal but can also aid in support and stability of your foot. Not all feet are perfect, so properly fitting shoes can help align your feet, ankles, knees, hips and back to correct your gait and improve posture.
+                </p>
+                <ul>
+                  <li>
+                    <i class="fab fa-facebook"></i>
+                  </li>
+                  <li>
+                    <i class="fab fa-instagram"></i>
+                  </li>
+                  <li>
+                    <i class="fab fa-twitter"></i>
+                  </li>
+                  <li>
+                    <i class="fab fa-tiktok"></i>
+                  </li>
+                  <li>
+                    <i class="fab fa-pinterest"></i>
+                  </li>
+                </ul>
+              </div>
+              <div class="box-3">
+                <h3>Opening Hours</h3>
+                <ul>
+                  <li>Everyday</li>
+                  <li>10:00 AM - 10:00 PM</li>
+                </ul>
+              </div>
+            <div class="box-4">
+                <div id="date"></div>
+              <p>
+                &copy; 2022 All Rights Reserved by Developer
+              </p>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section ends -->
+    <!-- adding bootstrap js -->
+    <!-- <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script> -->
+    <!-- adding js -->
+    <script src="./index.js"></script>
+</body>
+</html>
