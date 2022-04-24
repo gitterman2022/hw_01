@@ -79,7 +79,7 @@
     grid-template-rows: auto;
     grid-template-columns: repeat(12, 1fr);
     grid-template-areas: 
-    "l l . h f p b c c . i i";
+    "l l . h f p b r . . i .";
     background-color: #f1f1ef;
     padding: 10px 0;
     justify-items: center;
@@ -101,7 +101,7 @@
     grid-area: b;
 }
 .nav .nav-item-6{
-    grid-area: c;
+    grid-area: r;
 }
 .nav .nav-item-7{
     grid-area: i;
@@ -119,14 +119,14 @@
     display: grid;
     list-style: none;
     grid-template-rows: auto;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     background-color: #fbfafd;
     padding: 50px;
     justify-items: center;
     align-items: center;
 }
 .header-container .left-box{
-    grid-column: 1 / 7;
+    grid-column: 1 / 2;
     padding-right: 10px;
 }
 .header-container .left-box h1{
@@ -140,7 +140,7 @@
     width: 300px;
 }
 .header-container .right-box{
-    grid-column: 7 / -1;
+    grid-column: 2 / -1;
 }
 .header-container .right-box .img-box img{
     height: auto;
@@ -153,23 +153,23 @@
     display: grid;
     list-style: none;
     grid-template-rows: auto;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     background-color: #dad8dd;
     padding: 50px;
     justify-items: center;
     align-items: center;
 }
 .brand-container .brand-box .box-1{
-    grid-column: 1 / 4;
+    grid-column: 1 / 2;
 }
 .brand-container .brand-box .box-2{
-    grid-column: 4 / 7;
+    grid-column: 2 / 3;
 }
 .brand-container .brand-box .box-3{
-    grid-column: 7 / 10;
+    grid-column: 3 / 4;
 }
 .brand-container .brand-box .box-4{
-    grid-column: 10 / -1;
+    grid-column: 4 / -1;
 }
 /* styling feature section */
 .feature-container{
@@ -186,13 +186,13 @@
     display: grid;
     list-style: none;
     grid-template-rows: auto;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     padding-top: 25px;
     justify-items: center;
     align-items: center;
 }
 .feature-container .content .left-box{
-    grid-column: 1 / 7;
+    grid-column: 1 / 2;
 }
 .feature-container .content .left-box .img-box img{
     height: auto;
@@ -201,7 +201,7 @@
     padding: 10px;
 }
 .feature-container .content .right-box{
-    grid-column: 7 / -1;
+    grid-column: 2 / -1;
     padding-left: 10px;
 }
 .feature-container .content .right-box h2{
@@ -240,7 +240,7 @@
     padding-top: 25px;
     justify-items: center;
     align-items: center;
-    grid-gap: 50px;
+    gap: 50px;
     text-align: center;
 }
 .product-container .content .product-1{
@@ -330,7 +330,7 @@
     padding-top: 25px;
     justify-items: center;
     align-items: center;
-    grid-gap: 50px;
+    gap: 50px;
 }
 .blog-container .content .blog-1{
     grid-column: 1 / 2;
@@ -378,6 +378,66 @@
 }
 .blog-container .content .blog .blog-body .butn i{
     padding-left: 10px;
+}
+/* styling review section */
+.review-container{
+    padding: 50px;
+    background-color: #ebeef0;
+}
+.review-container .intro{
+    text-align: center;
+}
+.review-container .intro h3{
+    font-size: 32px;
+}
+.review-container .content{
+    display: grid;
+    list-style: none;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 25px;
+    justify-items: center;
+    align-items: center;
+    gap: 50px;
+}
+.review-container .content .review-1{
+    grid-column: 1 / 2;
+    width: 100%;
+}
+.review-container .content .review-2{
+    grid-column: 2 / 3;
+    width: 100%;
+}
+.review-container .content .review-3{
+    grid-column: 3 / -1;
+    width: 100%;
+}
+.review-container .content .review{
+    border: 1px solid #fff;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+}
+.review-container .content .review .img-box{
+    height: 300px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.review-container .content .review .img-box img{
+    height: 300px;
+    width: 100%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.review-container .content .review .review-body h2{
+    padding-top: 10px;
+    font-weight: 400;
+}
+.review-container .content .review .review-body p{
+    padding: 6px 0;
 }
 /* styling footer section */
 .footer-section{
