@@ -367,6 +367,9 @@
 .blog-container .content .blog .blog-body ul li{
     list-style-type: none;
 }
+.blog-container .content .blog .blog-body ul .text{
+    padding: 0;
+}
 .blog-container .content .blog .blog-body ul li i{
     padding-right: 10px;
 }
