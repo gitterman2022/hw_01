@@ -478,6 +478,9 @@
 .footer-container h3{
     font-size: 32px;
 }
+.footer-container h3 a{
+    text-decoration: none;
+}
 .footer-container ul li{
     list-style-type: none;
     padding-top: 7px;
