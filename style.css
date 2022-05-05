@@ -60,6 +60,7 @@
 .ocbtn:hover{
     color: #000 !important;
     background: transparent;
+    cursor: pointer;
 }
 /* styling global shadow */
 .text-shadow{
@@ -219,7 +220,7 @@
     font-size: 18px;
 }
 .feature-container .content .right-box li i{
-    padding-right: 8px;
+    padding-right: 10px;
 }
 /* styling product section */
 .product-container{
@@ -282,7 +283,7 @@
     border-top-right-radius: 10px;
 }
 .product-container .content .prod .img-box img{
-    height: 300px;
+    height: 100%;
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -359,7 +360,7 @@
     border-top-right-radius: 10px;
 }
 .blog-container .content .blog .img-box img{
-    height: 300px;
+    height: 100%;
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -424,13 +425,13 @@
     background-color: #fff;
 }
 .review-container .content .review .img-box{
-    height: 300px;
+    height: auto;
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 .review-container .content .review .img-box img{
-    height: 300px;
+    height: 100%;
     width: 100%;
     border-top-left-radius: 50%;
     border-bottom-right-radius: 50%;
@@ -526,9 +527,10 @@
     }
     /* styling brand section */
     .brand-container .brand-box{
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
+/*         display: flex; */
+/*         flex-direction: column; */
+/*         gap: 30px; */
+        padding: 50px 10px;
     }
     /* styling feature section */
     .feature-container{
@@ -564,6 +566,9 @@
         height: auto;
         padding: 50px 0 0 0;
     }
+    .product-container .content .prod .img-box{
+        height: auto;
+    }
     /* styling gallery section */
     .gallery-section{
         height: auto
@@ -571,6 +576,9 @@
     .gallery-section .gallery{
         display: flex;
         flex-direction: column;
+        height: auto;
+    }
+    .gallery-section .gallery .image{
         height: auto;
     }
     /* styling blog section */
@@ -583,6 +591,9 @@
         gap: 20px;
         height: auto;
         padding: 50px 0 0 0;
+    }
+    .blog-container .content .blog .img-box{
+        height: auto;
     }
     /* styling review section */
     .review-container{
